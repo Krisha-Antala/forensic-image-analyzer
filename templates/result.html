@@ -1,0 +1,11 @@
+<h2>Hidden Message</h2>
+
+<p>{{ hidden }}</p>
+
+<h2>Metadata</h2>
+
+<ul>
+    {% for key, value in metadata.items() %}
+    <li>{{ key }} : {{ value }}</li>
+    {% endfor %}
+</ul>
