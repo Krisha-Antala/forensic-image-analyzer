@@ -1,0 +1,9 @@
+opencv-python-headless==4.10.0.84
+Flask
+Pillow
+ExifRead
+stegano
+numpy<2.0.0
+matplotlib
+fpdf2
+gunicorn
